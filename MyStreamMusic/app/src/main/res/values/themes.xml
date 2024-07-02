@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyStreamMusic" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- 全面屏沉浸式 -->
+        <!-- 设置状态栏为透明 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- 设置状态栏颜色 -->
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.MyStreamMusic" parent="Base.Theme.MyStreamMusic" />
+
+</resources>
